@@ -1,4 +1,4 @@
-package example.chap07_08_03;
+package Example.chap07_08_03;
 
 public class SmartPhone extends Phone {
 	//»ý¼ºÀÚ
