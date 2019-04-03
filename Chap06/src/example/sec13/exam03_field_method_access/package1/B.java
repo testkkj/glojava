@@ -1,4 +1,4 @@
-package Example.sec13.exam03_field_method_access.package1;
+package example.sec13.exam03_field_method_access.package1;
 
 public class B {
 	public B() {

@@ -1,4 +1,4 @@
-package Example.sec12.exam03_import.mycompany;
+package example.sec12.exam03_import.mycompany;
 
 import Example.sec12.exam03_import.hankook.*;
 import Example.sec12.exam03_import.hymdai.Engine;

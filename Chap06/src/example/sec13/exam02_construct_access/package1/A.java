@@ -1,4 +1,4 @@
-package Example.sec13.exam02_construct_access.package1;
+package example.sec13.exam02_construct_access.package1;
 
 public class A {
 	//ÇÊµå

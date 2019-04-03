@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Calculator3 {
 	static double pi = 3.14159;

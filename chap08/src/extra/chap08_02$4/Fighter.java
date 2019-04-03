@@ -14,21 +14,24 @@ public class Fighter extends Unit implements Fightable{
 		
 	}
 	
-	@Override
-	void printl() {
-		System.out.println("객체는 Unit 클래스의 자손입니다.");
-	}
-
-	@Override
-	public void printl1() {
-		System.out.println("객체는 Moveable 인터페이스를 구현했습니다.");
+	public static void main(String[] args) {
+		Fighter fighter = new Fighter();
 		
-	}
-
-	@Override
-	public void printl2() {
-		System.out.println("객체는 Attackable 인터페이스를 구현했습니다.");
-		
+		if(fighter instanceof Object) {
+			System.out.println("fighter 객체는 Object 클래스의 자손입니다.");
+		}
+		if(fighter instanceof Unit) {
+			System.out.println("fighter 객체는 Unit 클래스의 자손입니다.");
+		}
+		if(fighter instanceof Moveable) {
+			System.out.println("fighter 객체는 Moveable 인터페이스를 구현 했습니다.");
+		}
+		if(fighter instanceof Attackable) {
+			System.out.println("fighter 객체는 Attackable 인터페이스를 구현 했습니다.");
+		}
+		if(fighter instanceof Fightable) {
+			System.out.println("fighter 객체는 Fightable 인터페이스를 구현 했습니다.");
+		}
 	}
 
 }

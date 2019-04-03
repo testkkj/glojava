@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Earth {
 	static final double EARTH_RADIUS = 6400;

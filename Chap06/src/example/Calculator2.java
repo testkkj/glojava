@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Calculator2 {
 	//정사각형의 넓이

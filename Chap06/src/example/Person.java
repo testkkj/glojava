@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Person {
 	final String nation = "Korea";

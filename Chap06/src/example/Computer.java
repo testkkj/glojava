@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Computer {
 	int sum1(int[] values) {

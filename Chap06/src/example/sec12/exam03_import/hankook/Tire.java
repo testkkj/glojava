@@ -1,4 +1,4 @@
-package Example.sec12.exam03_import.hankook;
+package example.sec12.exam03_import.hankook;
 
 public class Tire {
 

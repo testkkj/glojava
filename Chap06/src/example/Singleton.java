@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Singleton {
 	private static Singleton singleton = new Singleton();

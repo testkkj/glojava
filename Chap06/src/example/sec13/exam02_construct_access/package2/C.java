@@ -1,4 +1,4 @@
-package Example.sec13.exam02_construct_access.package2;
+package example.sec13.exam02_construct_access.package2;
 
 import Example.sec13.exam02_construct_access.package1.A;
 

@@ -1,4 +1,4 @@
-package Example;
+package example;
 
 public class Car4 {
 	//ÇÊµå
