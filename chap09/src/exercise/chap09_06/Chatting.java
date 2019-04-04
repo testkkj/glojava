@@ -2,15 +2,15 @@ package exercise.chap09_06;
 
 public class Chatting {
 	void startChat(String chatId) {
-		String nickName = null;
-		nickName = chatId;
-		Chat chat = new Chat(); {
+		String nickName = chatId;
+		Chat chat = new Chat() {
 			@Override
-			void start() {
-			while(true) {
-				String inputData = "æ»≥Á«œººø‰.";
-				String message = "["+nickName+"]"+inputData;
-				sendMessage(message);
+			public void start() {
+				while(true) {
+					String inputData = "æ»≥Á«œººø‰.";
+					String message = "["+nickName+"]"+inputData;
+					sendMessage(message);
+				}
 			}
 		};
 		chat.start();
@@ -20,5 +20,4 @@ public class Chatting {
 		void start() {}
 		void sendMessage(String message) {}
 	}
-
 }
